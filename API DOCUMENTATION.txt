@@ -1,0 +1,47 @@
+..... ACCOUNT MANAGEMENT .....
+
+(POST)/create-account
+BODY
+{
+    firstName: "",
+    lastName: "",
+    phone: "",
+    email: "",
+    password: "",
+    status: false,
+}
+
+(GET)/accounts
+RESPONSE
+[]
+
+(GET)/account/:id
+RESPONSE
+{}
+
+(PUT)/update-account/:id
+Send BODY
+(DELETE)/delete-account/:id
+
+
+..... STORY MANAGEMENT .....
+(POST)/create-story
+(GET)/stories
+(GET)/story/:id
+(PUT)/update-story/:id
+(DELETE)/delete-story/:id
+
+
+..... LIKES MANAGEMENT .....
+(POST)/create-story
+(GET)/stories
+(GET)/story/:id
+(DELETE)/delete-story/:id
+
+
+..... COMMENT MANAGEMENT .....
+(POST)/create-story
+(GET)/stories
+(GET)/story/:id
+(PUT)/update-story/:id
+(DELETE)/delete-story/:id
